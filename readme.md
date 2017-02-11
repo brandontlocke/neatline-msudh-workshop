@@ -1,9 +1,8 @@
 #Neatline
+*This workshops presumes some famililiarity with Omeka and skips over some important concepts in adding items to Omeka.*
 Produced by Brandon Locke
 ##What can you do with Neatline?
-[Neatline](http://neatline.org/) is an exhibit-buiding framework that makes it possible to create beautiful, complex maps and connect them with timelines. Neatline is built as a suite of plugins for the Omeka, a digital archive-building framework that supplies a powerful platform for content management and web publication.
-
-Neatline is great for developing spatial and temporal narratives to illustrate how events unfolded over time and space. This tutorial is intended for individuals interested in developing a Neatline-only project - if you are interested in developing a digital collection with Neatline integration, make sure to see our guide on [Omeka](/omeka) as well.
+[Neatline](http://neatline.org/) is an exhibit-buiding framework that makes it possible to create beautiful, complex maps and connect them with timelines. Neatline is great for developing spatial and temporal narratives to illustrate how events unfolded over time and space. Neatline is built as a suite of plugins for the Omeka, a digital archive-building framework that supplies a powerful platform for content management and web publication.
 
 ###Examples
 ####Undergraduate-developed Projects
@@ -18,27 +17,50 @@ Neatline is great for developing spatial and temporal narratives to illustrate h
 
 The developers of Neatline have a list of additional [Neatline Demos](http://neatline.org/demos/) you can explore.
 ##Getting started with Neatline
-You'll need to speak with a LEADR staff member to get you set up with a Neatline installation. We'll need to know your email address and the short project title you'd like to use in the URL. It should be specific but concise.
+Because Neatline is a plugin for Omeka, you'll need to start with an Omeka installation. For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline).
 
-Because Neatline is a plugin for Omeka, you'll be doing work in both the Omeka and Neatline interfaces. 
-###Setting up an Exhibit
+### Adding Content to Omeka
+1. Log in to the Omeka account at [projects.leadr.msu.edu/msudh-neatline/admin](http://projects.leadr.msu.edu/msudh-neatline/admin)
+2. Add an item to Omeka. Click on 'Items' on the left, then 'Add an Item.' Fill out the metadata in the 'Dublin Core' tab and make sure to upload at least one file in the 'Files' tag. See below for a list of MSU buildings you can add.
+
+
+| Bldg No. | Building Name                                 | Built | Demolished | Location                                                                                          | Source                                                                      | 
+|----------|-----------------------------------------------|-------|------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------| 
+| 1        | College Hall                                  | 1856  | 1918       | where Beaumont Tower now stands                                                                   | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 2        | Saints' Rest Dormitory                        | 1856  | 1876       | just east of the current MSU Museum building                                                      | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 3        | Faculty Row                                   | 1857  | 1947       | Cowles House remains, 6 demolishes homes were on the site of Landon, Yakeley, and Gilchrist Halls | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 4        | President's House                             | 1874  | 1946       | present site of Gilchrist Hall                                                                    | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 5        | Band Shell                                    | 1938  | 1960       | Ernst Bessey Hall and adjacent parking ramp                                                       | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 6        | Engineering Building                          | 1907  | 1916       | present site of Olds Hall                                                                         | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 7        | Olds Hall                                     | 1917  |            |                                                                                                   | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 8        | Livestock Judging Pavilion                    | 1938  | 1997       | parking lot on Shaw Road across from International Center                                         | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 9        | Wells Hall (3rd version)                      | 1968  |            |                                                                                                   | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 10       | Quonset Huts                                  | 1945  | 1950       | east side of Harrison Road                                                                        | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 11       | Paolucci Building/Home Management House       | 1947  | 2008       | Eli and Edyth Broad Art Museum                                                                    | [http://www.archives.msu.edu/collections/buildings.php]()                       | 
+| 12       | Eli and Edyth Broad Art Museum                | 2012  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Eli_and_Edythe_Broad_Art_Museum]()               | 
+| 13       | National Superconducting Cyclotron Laboratory | 1963  |            |                                                                                                   | [https://en.wikipedia.org/wiki/National_Superconducting_Cyclotron_Laboratory]() | 
+| 14       | Spartan Stadium                               | 1923  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Spartan_Stadium_(East_Lansing,_Michigan)]()      | 
+| 15       | Breslin Student Events Center                 | 1989  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Breslin_Student_Events_Center]()                 | 
+| 16       | Munn Ice Arena                                | 1974  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Munn_Ice_Arena]()                                | 
+| 17       | Eustace-Cole Hall                             | 1888  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Munn_Ice_Arena]()                                | 
+| 18       | Old Horticulture                              | 1924  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Laboratory_Row]()                                | 
+| 19       | Morrill Hall of Agriculture                   | 1909  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Laboratory_Row]()                                | 
+| 20       | Chittenden Hall                               | 1901  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Laboratory_Row]()                                | 
+| 21       | W.J. Beal Botanical Garden                    | 1873  |            |                                                                                                   | [https://en.wikipedia.org/wiki/W._J._Beal_Botanical_Garden]()                   | 
+| 22       | Demonstration Hall                            | 1928  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Demonstration_Hall]()                            | 
+| 23       | The Rock                                      | 1873  | 1985       | next to Beaumont                                                                                  | [https://en.wikipedia.org/wiki/The_Rock_(Michigan_State_University)]()          | 
+| 24       | The Rock                                      | 1985  |            |                                                                                                   | [https://en.wikipedia.org/wiki/The_Rock_(Michigan_State_University)]()          | 
+| 25       | Wharton Center for Performing Arts            | 1982  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Wharton_Center_for_Performing_Arts]()            | 
+| 26       | Student Union                                 | 1925  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Student_Union_(Michigan_State_University)]()     | 
+
+
+###Adding records to Neatline Exhibits
 In Neatline, an exhibit is a single canvas (usually a map) that you can add images, texts, timelines, or illustrations to.
 
-1. Log in to your Omeka account 
-1. Click on 'Plugins' at the top and then click Activate for 'Neatline', 'Neatline Features', 'Neatline Widget - Text', 'Neatline Time', and 'Neatline Widget - Waypoints'. You may not use all of these features, but it doesn't hurt to have them enabled. If these plugins aren't listed, contact LEADR staff.
-2. After all of these are enabled, there should be a 'Neatline' link on the left-hand side of the screen. Click on that to enter the Neatline editing dashboard.
-3. Click 'Create an Exhibit' and fill out the form.
-    - Title
-    - URL Slug
-    - Narrative
-    - Widgets (this will show possible selections - I'll add them all for this tutorial, but you can always add/delete these if you need to)
-    - Public (checkbox at the bottom - you may as well make it public right away)
-    - For all of the rest, we'll leave them as they are - you may need to come back to them at some point.
-4. Click 'Save Exhibit' to generate your new Omeka exhibit.
-5. Once you return to the Neatline dashboard (it may take a minute), click on your exhibit title to enter the editing screen.
-
-###Adding records to Neatline
 All content (images, text, etc.) added to the exhibit must be added as a 'Record'. Records can be tied to a map (as a point, a shape, or a line), a timeline, or both. A record can either be text added through this interface (or an image or video, using custom HTML), or tied to an Omeka item.
+
+2. There should be a 'Neatline' link on the left-hand side of the screen. Click on that to enter the Neatline editing dashboard.
+3. I've created an Exhibit for this workshop named 'MSU Campus History.' Click on that to edit it.
 
 On the Neatline editor page, click 'New Record.' This will bring up a record editing bar on the left side of the page with four tabs: Text, Item, Map, Style. There are 'Save' buttons at the bottom of each tabbed page, and it's recommended that you use them often.
 
