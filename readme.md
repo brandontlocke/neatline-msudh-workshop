@@ -1,22 +1,22 @@
-#Neatline
-*This workshops presumes some famililiarity with Omeka and skips over some important concepts in adding items to Omeka.*
-Produced by Brandon Locke
-##What can you do with Neatline?
+# Neatline
+*This workshops presumes some familiarity with Omeka and skips over some important concepts in adding items to Omeka.*
+
+## What can you do with Neatline?
 [Neatline](http://neatline.org/) is an exhibit-buiding framework that makes it possible to create beautiful, complex maps and connect them with timelines. Neatline is great for developing spatial and temporal narratives to illustrate how events unfolded over time and space. Neatline is built as a suite of plugins for the Omeka, a digital archive-building framework that supplies a powerful platform for content management and web publication.
 
-###Examples
-####Undergraduate-developed Projects
+### Examples
+#### Undergraduate-developed Projects
 - [The Life and Death of a Boom Town: Bodie, California, 1850-1950](http://projects.leadr.msu.edu/bodietimeline)
 - [Boston Harbor Islands](http://omekasites.northeastern.edu/DeepMap/neatline/fullscreen/boston-harbor-islands)
 - [Boston Marathon bombing memorial at Fenway Park](http://marathon.neu.edu/neatline/show/fenwayexhibit)
 - [H.P. Lovecraft in Providence](http://lovecraft.neatline.org/neatline-exhibits/show/lovecraft-in-providence/fullscreen)
 
-####Reasearcher-developed Projects
+#### Reasearcher-developed Projects
 - [Hotchkiss Maps the Battle of Fredericksburg for his Child](http://hotchkiss.neatline.org/neatline-exhibits/show/my-dear-little-nelly/fullscreen)
 - ["Inventing the Map"](http://henshaw.neatline.org/)
 
 The developers of Neatline have a list of additional [Neatline Demos](http://neatline.org/demos/) you can explore.
-##Getting started with Neatline
+## Getting started with Neatline
 Because Neatline is a plugin for Omeka, you'll need to start with an Omeka installation. For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline).
 
 ### Adding Content to Omeka
@@ -25,37 +25,37 @@ Because Neatline is a plugin for Omeka, you'll need to start with an Omeka insta
 2. Add an item in Omeka. Click on 'Items' on the left, then 'Add an Item.' Fill out the metadata in the 'Dublin Core' tab and make sure to upload at least one file in the 'Files' tag.
 
 
-| Bldg No. | Building Name                                 | Built | Demo | Location                                                                                          | Source                                                                      | 
-|----------|-----------------------------------------------|-------|------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------| 
-| 1        | College Hall                                  | 1856  | 1918       | where Beaumont Tower now stands                                                                   | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 2        | Saints' Rest Dormitory                        | 1856  | 1876       | just east of the current MSU Museum building                                                      | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 3        | Faculty Row                                   | 1857  | 1947       | Cowles House remains, 6 demolishes homes were on the site of Landon, Yakeley, and Gilchrist Halls | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 4        | President's House                             | 1874  | 1946       | present site of Gilchrist Hall                                                                    | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 5        | Band Shell                                    | 1938  | 1960       | Ernst Bessey Hall and adjacent parking ramp                                                       | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 6        | Engineering Building                          | 1907  | 1916       | present site of Olds Hall                                                                         | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 7        | Olds Hall                                     | 1917  |            |                                                                                                   | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 8        | Livestock Judging Pavilion                    | 1938  | 1997       | parking lot on Shaw Road across from International Center                                         | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 9        | Wells Hall (3rd version)                      | 1968  |            |                                                                                                   | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 10       | Quonset Huts                                  | 1945  | 1950       | east side of Harrison Road                                                                        | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 11       | Paolucci Building/Home Management House       | 1947  | 2008       | Eli and Edyth Broad Art Museum                                                                    | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       | 
-| 12       | Eli and Edyth Broad Art Museum                | 2012  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Eli_and_Edythe_Broad_Art_Museum](https://en.wikipedia.org/wiki/Eli_and_Edythe_Broad_Art_Museum)               | 
-| 13       | National Superconducting Cyclotron Laboratory | 1963  |            |                                                                                                   | [https://en.wikipedia.org/wiki/National_Superconducting_Cyclotron_Laboratory](https://en.wikipedia.org/wiki/National_Superconducting_Cyclotron_Laboratory) | 
-| 14       | Spartan Stadium                               | 1923  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Spartan_Stadium_(East_Lansing,_Michigan)](https://en.wikipedia.org/wiki/Spartan_Stadium_(East_Lansing,_Michigan))      | 
-| 15       | Breslin Student Events Center                 | 1989  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Breslin_Student_Events_Center](https://en.wikipedia.org/wiki/Breslin_Student_Events_Center)                 | 
-| 16       | Munn Ice Arena                                | 1974  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Munn_Ice_Arena](https://en.wikipedia.org/wiki/Munn_Ice_Arena)                                | 
-| 17       | Eustace-Cole Hall                             | 1888  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Munn_Ice_Arena](https://en.wikipedia.org/wiki/Munn_Ice_Arena)                                | 
-| 18       | Old Horticulture                              | 1924  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Laboratory_Row](https://en.wikipedia.org/wiki/Laboratory_Row)                                | 
-| 19       | Morrill Hall of Agriculture                   | 1909  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Laboratory_Row](https://en.wikipedia.org/wiki/Laboratory_Row)                                | 
-| 20       | Chittenden Hall                               | 1901  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Laboratory_Row](https://en.wikipedia.org/wiki/Laboratory_Row)                                | 
-| 21       | W.J. Beal Botanical Garden                    | 1873  |            |                                                                                                   | [https://en.wikipedia.org/wiki/W._J._Beal_Botanical_Garden](https://en.wikipedia.org/wiki/W._J._Beal_Botanical_Garden)                   | 
-| 22       | Demonstration Hall                            | 1928  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Demonstration_Hall](https://en.wikipedia.org/wiki/Demonstration_Hall)                            | 
-| 23       | The Rock                                      | 1873  | 1985       | next to Beaumont                                                                                  | [https://en.wikipedia.org/wiki/The_Rock_(Michigan_State_University)](https://en.wikipedia.org/wiki/The_Rock_(Michigan_State_University))          | 
-| 24       | The Rock                                      | 1985  |            |                                                                                                   | [https://en.wikipedia.org/wiki/The_Rock_(Michigan_State_University)](https://en.wikipedia.org/wiki/The_Rock_(Michigan_State_University))          | 
-| 25       | Wharton Center for Performing Arts            | 1982  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Wharton_Center_for_Performing_Arts](https://en.wikipedia.org/wiki/Wharton_Center_for_Performing_Arts)            | 
-| 26       | Student Union                                 | 1925  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Student_Union_(Michigan_State_University)](https://en.wikipedia.org/wiki/Student_Union_(Michigan_State_University))     | 
+| Bldg No. | Building Name                                 | Built | Demo | Location                                                                                          | Source                                                                      |
+|----------|-----------------------------------------------|-------|------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 1        | College Hall                                  | 1856  | 1918       | where Beaumont Tower now stands                                                                   | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 2        | Saints' Rest Dormitory                        | 1856  | 1876       | just east of the current MSU Museum building                                                      | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 3        | Faculty Row                                   | 1857  | 1947       | Cowles House remains, 6 demolishes homes were on the site of Landon, Yakeley, and Gilchrist Halls | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 4        | President's House                             | 1874  | 1946       | present site of Gilchrist Hall                                                                    | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 5        | Band Shell                                    | 1938  | 1960       | Ernst Bessey Hall and adjacent parking ramp                                                       | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 6        | Engineering Building                          | 1907  | 1916       | present site of Olds Hall                                                                         | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 7        | Olds Hall                                     | 1917  |            |                                                                                                   | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 8        | Livestock Judging Pavilion                    | 1938  | 1997       | parking lot on Shaw Road across from International Center                                         | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 9        | Wells Hall (3rd version)                      | 1968  |            |                                                                                                   | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 10       | Quonset Huts                                  | 1945  | 1950       | east side of Harrison Road                                                                        | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 11       | Paolucci Building/Home Management House       | 1947  | 2008       | Eli and Edyth Broad Art Museum                                                                    | [http://www.archives.msu.edu/collections/buildings.php](http://www.archives.msu.edu/collections/buildings.php)                       |
+| 12       | Eli and Edyth Broad Art Museum                | 2012  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Eli_and_Edythe_Broad_Art_Museum](https://en.wikipedia.org/wiki/Eli_and_Edythe_Broad_Art_Museum)               |
+| 13       | National Superconducting Cyclotron Laboratory | 1963  |            |                                                                                                   | [https://en.wikipedia.org/wiki/National_Superconducting_Cyclotron_Laboratory](https://en.wikipedia.org/wiki/National_Superconducting_Cyclotron_Laboratory) |
+| 14       | Spartan Stadium                               | 1923  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Spartan_Stadium_(East_Lansing,_Michigan)](https://en.wikipedia.org/wiki/Spartan_Stadium_(East_Lansing,_Michigan))      |
+| 15       | Breslin Student Events Center                 | 1989  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Breslin_Student_Events_Center](https://en.wikipedia.org/wiki/Breslin_Student_Events_Center)                 |
+| 16       | Munn Ice Arena                                | 1974  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Munn_Ice_Arena](https://en.wikipedia.org/wiki/Munn_Ice_Arena)                                |
+| 17       | Eustace-Cole Hall                             | 1888  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Munn_Ice_Arena](https://en.wikipedia.org/wiki/Munn_Ice_Arena)                                |
+| 18       | Old Horticulture                              | 1924  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Laboratory_Row](https://en.wikipedia.org/wiki/Laboratory_Row)                                |
+| 19       | Morrill Hall of Agriculture                   | 1909  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Laboratory_Row](https://en.wikipedia.org/wiki/Laboratory_Row)                                |
+| 20       | Chittenden Hall                               | 1901  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Laboratory_Row](https://en.wikipedia.org/wiki/Laboratory_Row)                                |
+| 21       | W.J. Beal Botanical Garden                    | 1873  |            |                                                                                                   | [https://en.wikipedia.org/wiki/W._J._Beal_Botanical_Garden](https://en.wikipedia.org/wiki/W._J._Beal_Botanical_Garden)                   |
+| 22       | Demonstration Hall                            | 1928  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Demonstration_Hall](https://en.wikipedia.org/wiki/Demonstration_Hall)                            |
+| 23       | The Rock                                      | 1873  | 1985       | next to Beaumont                                                                                  | [https://en.wikipedia.org/wiki/The_Rock_(Michigan_State_University)](https://en.wikipedia.org/wiki/The_Rock_(Michigan_State_University))          |
+| 24       | The Rock                                      | 1985  |            |                                                                                                   | [https://en.wikipedia.org/wiki/The_Rock_(Michigan_State_University)](https://en.wikipedia.org/wiki/The_Rock_(Michigan_State_University))          |
+| 25       | Wharton Center for Performing Arts            | 1982  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Wharton_Center_for_Performing_Arts](https://en.wikipedia.org/wiki/Wharton_Center_for_Performing_Arts)            |
+| 26       | Student Union                                 | 1925  |            |                                                                                                   | [https://en.wikipedia.org/wiki/Student_Union_(Michigan_State_University)](https://en.wikipedia.org/wiki/Student_Union_(Michigan_State_University))     |
 
 
-###Adding records to Neatline Exhibits
+### Adding records to Neatline Exhibits
 In Neatline, an exhibit is a single canvas (usually a map) that you can add images, texts, timelines, or illustrations to.
 
 All content (images, text, etc.) added to the exhibit must be added as a 'Record'. Records can be tied to a map (as a point, a shape, or a line), a timeline, or both. A record can either be text added through this interface (or an image or video, using custom HTML), or tied to an Omeka item.
@@ -65,18 +65,18 @@ All content (images, text, etc.) added to the exhibit must be added as a 'Record
 
 On the Neatline editor page, click 'New Record.' This will bring up a record editing bar on the left side of the page with four tabs: Text, Item, Map, Style. There are 'Save' buttons at the bottom of each tabbed page, and it's recommended that you use them often.
 
-####Tabs for adding records
-#####Text
+#### Tabs for adding records
+##### Text
 Here you can assign the record a Title and you have the option to add text (or customized HTML) to the record.
 
 - Slug: A plain­text ID for the record, used to reference the record from TEI or HTML. Eg: war­and­peace This is not required - Neatline will generate its own slug.
 - Title: A top­level, human­readable identifier. Used as a label for the record. Eg: "War and Peace"
 - Body: The main content of the record. Could be a short blurb, a long­format essay, a video, etc. If you decide to add an item from Omeka, this will appear about the item information.
 
-#####Item
+##### Item
 This is where you can include an Omeka item as a record. You'll need to create it before you can use it in Neatline, but any later edits to the Omeka item will be reflected. Click in the 'Search Omeka items' box and start to type in the name of the item. It will return results as you type.
 
-#####Map
+##### Map
 Here you can add your record to the map as one or more points, lines, or polygons.
 
 - Navigate - This allows you to 'grab' the map and move around. It effectively turns off all of the drawing tools.
@@ -88,7 +88,7 @@ Here you can add your record to the map as one or more points, lines, or polygon
 Before you begin placing records on the map, you may want to set a default map location. The default window goes to [Null Island](https://en.wikipedia.org/wiki/Null_Island), but you can recenter it by clicking on the 'Styles' tab at the exhibit home page, moving the window to where you'd like it, and then clicking 'Use Current Viewport as Default'.
 
 
-#####Style
+##### Style
 - Tags: A string of comma­delimited tags used to slice and dice the collection into related
 subgroups.
 - Widgets: Which of the "viewports" the record is visible in (timeline, waypoints browser,
@@ -127,17 +127,17 @@ selected.
 
 
 
-###Using the Timeline function
+### Using the Timeline function
 
-####Activate SIMILE Timeline
+#### Activate SIMILE Timeline
 The timeline that appears at the bottom of the Neatline Viewer must be activated in the Omeka Plugins page (it is called 'Neatline Widget ~ SIMILE Timeline).
 
-####Add record to the Timeline
+#### Add record to the Timeline
 To place a record on the timeline, go to the 'Style' tab for the record and add SIMILE Timeline to the Widgets field. The record's placement is dependent upon the record's 'Start Date' and 'End Date'.
 
 An item's color on the timeline can be customized by adjusting the Fill and Stroke color options on the Style tab.
 
-####Customize the Timeline
+#### Customize the Timeline
 At the Neatline dashboard, click on the 'Plugins' tab and then select SIMILE Timeline. You will have 5 fields for customization.
 
 - Default Date: This sets the date that appears at the center of the timeline by default
@@ -146,10 +146,7 @@ At the Neatline dashboard, click on the 'Plugins' tab and then select SIMILE Tim
 - Track Height: Set the height of the space used to show the event's 'tape' and label on the timeline
 - Tape Height: Set the height of an object on the timeline
 
-##Sources for this Guide
+## Sources for this Guide
 - [Tobias Hrynick, The Haskins Society](http://www.haskinssociety.org/omeka-neatline-1)
 - [Alicia Peaker, Building Digital Exhibits in the Classroom with Omeka and Neatline](https://aliciapeaker.wordpress.com/2014/04/28/building-digital-exhibits/)
 - [Wired! at Duke](http://dukewired.org/tutorialFiles/NeatlineManual.pdf)
-
------
-###Return to [LEADR's Resources list](https://github.com/leadr-msu/Resources)
