@@ -21,7 +21,8 @@ Because Neatline is a plugin for Omeka, you'll need to start with an Omeka insta
 
 ### Adding Content to Omeka
 1. Log in to the Omeka account at [projects.leadr.msu.edu/msudh-neatline/admin](http://projects.leadr.msu.edu/msudh-neatline/admin)
-2. Add an item to Omeka. Click on 'Items' on the left, then 'Add an Item.' Fill out the metadata in the 'Dublin Core' tab and make sure to upload at least one file in the 'Files' tag. See below for a list of MSU buildings you can add.
+2. See below for a list of MSU buildings you can add as an Omeka item.
+2. Add an item in Omeka. Click on 'Items' on the left, then 'Add an Item.' Fill out the metadata in the 'Dublin Core' tab and make sure to upload at least one file in the 'Files' tag.
 
 
 | Bldg No. | Building Name                                 | Built | Demo | Location                                                                                          | Source                                                                      | 
