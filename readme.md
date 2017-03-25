@@ -17,12 +17,16 @@
 
 The developers of Neatline have a list of additional [Neatline Demos](http://neatline.org/demos/) you can explore.
 ## Getting started with Neatline
-Because Neatline is a plugin for Omeka, you'll need to start with an Omeka installation. For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline).
+Because Neatline is a plugin for Omeka, you'll need to start with an Omeka installation. If you registered for this workshop, you should have had one set up for you. If you're using an Omeka installation through Reclaim hosting, make sure you [follow these steps to activate Neatline on a Reclaim server](https://docs.google.com/document/d/1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w/edit).
+
+If not, you can log into [TKTKTKT]()
+<!-- For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline). -->
 
 ### Adding Content to Omeka
 1. Log in to the Omeka account at [projects.leadr.msu.edu/msudh-neatline/admin](http://projects.leadr.msu.edu/msudh-neatline/admin)
-2. See below for a list of MSU buildings you can add as an Omeka item.
+2. See below for a list of MSU buildings you can add as Omeka items.
 2. Add an item in Omeka. Click on 'Items' on the left, then 'Add an Item.' Fill out the metadata in the 'Dublin Core' tab and make sure to upload at least one file in the 'Files' tag.
+2. Repeat this so that you have at least 3 items in Omeka.
 
 
 | Bldg No. | Building Name                                 | Built | Demo | Location                                                                                          | Source                                                                      |
@@ -58,10 +62,10 @@ Because Neatline is a plugin for Omeka, you'll need to start with an Omeka insta
 ### Adding records to Neatline Exhibits
 In Neatline, an exhibit is a single canvas (usually a map) that you can add images, texts, timelines, or illustrations to.
 
-All content (images, text, etc.) added to the exhibit must be added as a 'Record'. Records can be tied to a map (as a point, a shape, or a line), a timeline, or both. A record can either be text added through this interface (or an image or video, using custom HTML), or tied to an Omeka item.
+All content (images, text, etc.) added to the exhibit must be added as a 'Record'. Records can be tied to a map (as a point, a shape, or a line), a timeline, or both. A record can either be text added through the Neatline exhibit interface (or an image or video, using custom HTML), or reference an Omeka item.
 
-2. There should be a 'Neatline' link on the left-hand side of the screen. Click on that to enter the Neatline editing dashboard.
-3. I've created an Exhibit for this workshop named 'MSU Campus History.' Click on that to edit it.
+1. There should be a 'Neatline' link on the left-hand side of the Omeka dashboard. Click on that to enter the Neatline editing dashboard.
+2. I've created an Exhibit for this workshop named 'MSU Campus History.' Click on that to edit it.
 
 On the Neatline editor page, click 'New Record.' This will bring up a record editing bar on the left side of the page with four tabs: Text, Item, Map, Style. There are 'Save' buttons at the bottom of each tabbed page, and it's recommended that you use them often.
 
