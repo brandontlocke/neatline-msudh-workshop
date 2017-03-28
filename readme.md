@@ -23,7 +23,7 @@ If not, you can log into [TKTKTKT]()
 <!-- For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline). -->
 
 ### Adding Content to Omeka
-1. Log in to the Omeka account at [projects.leadr.msu.edu/msudh-neatline/admin](http://projects.leadr.msu.edu/msudh-neatline/admin)
+1. Log in to the Omeka account at your.url/admin
 2. See below for a list of MSU buildings you can add as Omeka items.
 2. Add an item in Omeka. Click on 'Items' on the left, then 'Add an Item.' Fill out the metadata in the 'Dublin Core' tab and make sure to upload at least one file in the 'Files' tag.
 2. Repeat this so that you have at least 3 items in Omeka.
