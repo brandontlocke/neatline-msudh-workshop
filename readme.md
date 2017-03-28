@@ -27,7 +27,7 @@ The developers of Neatline have a list of additional [Neatline Demos](http://nea
 Because Neatline is a plugin for Omeka, you'll need to start with an Omeka installation. If you registered for this workshop, you should have had one set up for you. If you're using an Omeka installation through Reclaim hosting, make sure you [follow these steps to activate Neatline on a Reclaim server](https://docs.google.com/document/d/1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w/edit).
 
 If not, you can log into [projects.leadr.msu.edu/msudhneatline/](http://projects.leadr.msu.edu/msudhneatline/)
-<!-- For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline). -->
+<!-- For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline/admin). -->
 
 ### Adding Content to Omeka
 1. Log in to the Omeka account at your.url/admin
@@ -143,7 +143,7 @@ selected.
 ### Using the Timeline function
 
 #### Activate SIMILE Timeline
-The timeline that appears at the bottom of the Neatline Viewer must be activated in the Omeka Plugins page (it is called 'Neatline Widget ~ SIMILE Timeline).
+*The timeline that appears at the bottom of the Neatline Viewer must be activated in the Omeka Plugins page (it is called 'Neatline Widget ~ SIMILE Timeline), and it should be added to the exhibit settings when the exhibit was created.*
 
 #### Add record to the Timeline
 To place a record on the timeline, go to the 'Style' tab for the record and add SIMILE Timeline to the Widgets field. The record's placement is dependent upon the record's 'Start Date' and 'End Date'.
@@ -158,6 +158,18 @@ At the Neatline dashboard, click on the 'Plugins' tab and then select SIMILE Tim
 - Interval Pixels: Set the distance (on the screen) between the intervals on the timeline
 - Track Height: Set the height of the space used to show the event's 'tape' and label on the timeline
 - Tape Height: Set the height of an object on the timeline
+
+### Using Waypoints
+Waypoints are records that are displayed on the Neatline interface, and can be tied to the timeline and map if desired. Waypoints can be put into a specific order, making it possible to guide users through an exhibit in a linear sequence.
+
+#### Activate Waypoints
+*Waypoints must be activated in the Omeka Plugins page (it is called 'Neatline Widget ~ Waypoints), and it should be added to the exhibit settings when the exhibit was created.*
+
+#### Add a record to Waypoints
+To place a record on the timeline, go to the 'Style' tab for the record and add Waypoints to the Widgets field. The record you add (including spatial and timeline components, if added) will appear when the user clicks on the waypoint. You can also set a Default Focus and Default Zoom (near the bottom of the 'Style' tab) so that the map will move to the focus of your choosing.
+
+#### Customize the Waypoints
+You can edit the order that waypoints appear on your Neatline Exhibit. At the Neatline dashboard, click on the 'Plugins' tab and then select Waypoints. You can drag your Waypoints up and down as desired.
 
 ## Sources for this Guide
 - [Tobias Hrynick, The Haskins Society](http://www.haskinssociety.org/omeka-neatline-1)
