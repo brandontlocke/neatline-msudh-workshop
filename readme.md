@@ -1,6 +1,13 @@
 # Neatline
 *This workshops presumes some familiarity with Omeka and skips over some important concepts in adding items to Omeka.*
 
+*Materials used in the prior Omeka workshop and this Neatline workshop are available at [go.cal.msu.edu/2017omekaworkshop](http://go.cal.msu.edu/2017omekaworkshop)
+
+## Preparing Neatline
+1. Download the Neatline plugin [Click to download Neatline](https://drive.google.com/open?id=0B0-bI3TzTQ7eWGdZbTlWUnBLdW8)
+2. Follow these [instructions to edit the config file](https://drive.google.com/open?id=1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w)
+3. Log in to your Omeka site, click on 'Plugins' at the top, and click 'Install' on each of the Neatline plugins.
+
 ## What can you do with Neatline?
 [Neatline](http://neatline.org/) is an exhibit-buiding framework that makes it possible to create beautiful, complex maps and connect them with timelines. Neatline is great for developing spatial and temporal narratives to illustrate how events unfolded over time and space. Neatline is built as a suite of plugins for the Omeka, a digital archive-building framework that supplies a powerful platform for content management and web publication.
 
@@ -19,14 +26,14 @@ The developers of Neatline have a list of additional [Neatline Demos](http://nea
 ## Getting started with Neatline
 Because Neatline is a plugin for Omeka, you'll need to start with an Omeka installation. If you registered for this workshop, you should have had one set up for you. If you're using an Omeka installation through Reclaim hosting, make sure you [follow these steps to activate Neatline on a Reclaim server](https://docs.google.com/document/d/1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w/edit).
 
-If not, you can log into [TKTKTKT]()
+If not, you can log into [projects.leadr.msu.edu/msudhneatline/](http://projects.leadr.msu.edu/msudhneatline/)
 <!-- For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline). -->
 
 ### Adding Content to Omeka
 1. Log in to the Omeka account at your.url/admin
 2. See below for a list of MSU buildings you can add as Omeka items.
 2. Add an item in Omeka. Click on 'Items' on the left, then 'Add an Item.' Fill out the metadata in the 'Dublin Core' tab and make sure to upload at least one file in the 'Files' tag.
-2. Repeat this so that you have at least 3 items in Omeka.
+2. Repeat this so that you have at least 2 items in Omeka. (Buildings with both 'Built' and 'Demo' dates will work best)
 
 
 | Bldg No. | Building Name                                 | Built | Demo | Location                                                                                          | Source                                                                      |
@@ -65,7 +72,10 @@ In Neatline, an exhibit is a single canvas (usually a map) that you can add imag
 All content (images, text, etc.) added to the exhibit must be added as a 'Record'. Records can be tied to a map (as a point, a shape, or a line), a timeline, or both. A record can either be text added through the Neatline exhibit interface (or an image or video, using custom HTML), or reference an Omeka item.
 
 1. There should be a 'Neatline' link on the left-hand side of the Omeka dashboard. Click on that to enter the Neatline editing dashboard.
-2. I've created an Exhibit for this workshop named 'MSU Campus History.' Click on that to edit it.
+2. Click on 'Create an Exhibit.'
+3. Enter a title for your exhibit. We'll be looking at MSU buildings from the past and present, so "MSU History" may be a good name.
+4. You don't need a narrative at this point, but you should add widgets. In the space, add SIMILE Timeline, Text, and Waypoints. These should autocomplete if they are installed.
+5. You can leave the rest of the fields as default.
 
 On the Neatline editor page, click 'New Record.' This will bring up a record editing bar on the left side of the page with four tabs: Text, Item, Map, Style. There are 'Save' buttons at the bottom of each tabbed page, and it's recommended that you use them often.
 
@@ -93,7 +103,7 @@ Before you begin placing records on the map, you may want to set a default map l
 
 
 ##### Style
-- Tags: A string of comma­delimited tags used to slice and dice the collection into related
+- Tags: A string of comma­ delimited tags used to slice and dice the collection into related
 subgroups.
 - Widgets: Which of the "viewports" the record is visible in (timeline, waypoints browser,
 etc).
@@ -128,7 +138,6 @@ overlayed on the map.
 - Default Focus: The lat/lon coordinates that the map zooms to when the record is
 selected.
 - Default Zoom: The zoom level that the map zooms to when the record is selected.
-
 
 
 ### Using the Timeline function
