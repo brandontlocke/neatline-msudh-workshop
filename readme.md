@@ -187,6 +187,10 @@ You can edit the order that waypoints appear on your Neatline Exhibit. At the Ne
 7. Add whatever text you'd like displayed alongside the image in the body.
 8. When you're done, click on the minimize button (this is on the right side of the bar at the top, with arrows pointing inwards)
 
+---
+
+*This workshop was developed by Brandon Locke, Scout Calvert, and Kristen Mapes*
+
 ## Sources for this Guide
 - [Tobias Hrynick, The Haskins Society](http://www.haskinssociety.org/omeka-neatline-1)
 - [Alicia Peaker, Building Digital Exhibits in the Classroom with Omeka and Neatline](https://aliciapeaker.wordpress.com/2014/04/28/building-digital-exhibits/)
