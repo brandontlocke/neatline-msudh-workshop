@@ -1,9 +1,14 @@
 # Neatline
 *This workshops presumes some familiarity with Omeka and skips over some important concepts in adding items to Omeka.*
 
-*Materials used in the prior Omeka workshop and this Neatline workshop are available at [go.cal.msu.edu/2017omekaworkshop](http://go.cal.msu.edu/2017omekaworkshop)
+*Materials used in the prior Omeka workshop and this Neatline workshop are available at [go.cal.msu.edu/2017omekaworkshop](http://go.cal.msu.edu/2017omekaworkshop)*
 
 ## Preparing Neatline
+If you registered for this workshop, you should have had one set up for you. If you're using an Omeka installation through Reclaim hosting, make sure you [follow these steps to activate Neatline on a Reclaim server](https://docs.google.com/document/d/1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w/edit).
+
+If you haven't set up an Omeka isntallation through Reclaim, you can log into [projects.leadr.msu.edu/msudhneatline/](http://projects.leadr.msu.edu/msudhneatline/)
+<!-- For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline/admin). -->
+
 1. Download the Neatline plugin. **Do not unzip this file** [Click to download Neatline and associated plugins](https://drive.google.com/file/d/0B0-bI3TzTQ7eeVdtV1JPOWhVelU/view?usp=sharing)
 2. Follow these [instructions to upload Neatline and other plugins to your Omeka site hosted on Reclaim](https://community.reclaimhosting.com/t/uploading-plugins-to-omeka/195)
 2. Follow these [instructions to edit the config file](https://drive.google.com/open?id=1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w)
@@ -25,13 +30,10 @@
 
 The developers of Neatline have a list of additional [Neatline Demos](http://neatline.org/demos/) you can explore.
 ## Getting started with Neatline
-Because Neatline is a plugin for Omeka, you'll need to start with an Omeka installation. If you registered for this workshop, you should have had one set up for you. If you're using an Omeka installation through Reclaim hosting, make sure you [follow these steps to activate Neatline on a Reclaim server](https://docs.google.com/document/d/1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w/edit).
-
-If you haven't set up an Omeka isntallation through Reclaim, you can log into [projects.leadr.msu.edu/msudhneatline/](http://projects.leadr.msu.edu/msudhneatline/)
-<!-- For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline/admin). -->
+Because Neatline is a plugin for Omeka, you'll need to start with an Omeka installation.
 
 ### Adding Content to Omeka
-1. Log in to the Omeka account at your.url/admin
+1. Log in to the Omeka account at *[your.url]/admin*
 2. See below for a list of MSU buildings you can add as Omeka items.
 2. Add an item in Omeka. Click on 'Items' on the left, then 'Add an Item.' Fill out the metadata in the 'Dublin Core' tab and make sure to upload at least one file in the 'Files' tag.
 2. Repeat this so that you have at least 2 items in Omeka. (Buildings with both 'Built' and 'Demo' dates will work best)
@@ -70,7 +72,7 @@ If you haven't set up an Omeka isntallation through Reclaim, you can log into [p
 ### Adding records to Neatline Exhibits
 In Neatline, an exhibit is a single canvas (usually a map) that you can add images, texts, timelines, or illustrations to.
 
-All content (images, text, etc.) added to the exhibit must be added as a 'Record'. Records can be tied to a map (as a point, a shape, or a line), a timeline, or both. A record can either be text added through the Neatline exhibit interface (or an image or video, using custom HTML), or reference an Omeka item.
+All content (images, text, etc.) added to the exhibit must be added as a 'Record'. Records can be tied to a map (as a point, a shape, or a line), a timeline, a waypoint, or any combination of the three. A record can either be text added through the Neatline exhibit interface (or an image or video, using custom HTML), or reference an Omeka item.
 
 1. There should be a 'Neatline' link on the left-hand side of the Omeka dashboard. Click on that to enter the Neatline editing dashboard.
 2. Click on 'Create an Exhibit.'
