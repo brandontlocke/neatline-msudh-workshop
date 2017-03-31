@@ -4,7 +4,8 @@
 *Materials used in the prior Omeka workshop and this Neatline workshop are available at [go.cal.msu.edu/2017omekaworkshop](http://go.cal.msu.edu/2017omekaworkshop)
 
 ## Preparing Neatline
-1. Download the Neatline plugin [Click to download Neatline](https://drive.google.com/open?id=0B0-bI3TzTQ7eWGdZbTlWUnBLdW8)
+1. Download the Neatline plugin. **Do not unzip this file** [Click to download Neatline and associated plugins](https://drive.google.com/file/d/0B0-bI3TzTQ7eeVdtV1JPOWhVelU/view?usp=sharing)
+2. Follow these [instructions to upload Neatline and other plugins to your Omeka site hosted on Reclaim](https://community.reclaimhosting.com/t/uploading-plugins-to-omeka/195)
 2. Follow these [instructions to edit the config file](https://drive.google.com/open?id=1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w)
 3. Log in to your Omeka site, click on 'Plugins' at the top, and click 'Install' on each of the Neatline plugins.
 
@@ -18,7 +19,7 @@
 - [Boston Marathon bombing memorial at Fenway Park](http://marathon.neu.edu/neatline/show/fenwayexhibit)
 - [H.P. Lovecraft in Providence](http://lovecraft.neatline.org/neatline-exhibits/show/lovecraft-in-providence/fullscreen)
 
-#### Reasearcher-developed Projects
+#### Larger Scholarly Projects
 - [Hotchkiss Maps the Battle of Fredericksburg for his Child](http://hotchkiss.neatline.org/neatline-exhibits/show/my-dear-little-nelly/fullscreen)
 - ["Inventing the Map"](http://henshaw.neatline.org/)
 
@@ -26,7 +27,7 @@ The developers of Neatline have a list of additional [Neatline Demos](http://nea
 ## Getting started with Neatline
 Because Neatline is a plugin for Omeka, you'll need to start with an Omeka installation. If you registered for this workshop, you should have had one set up for you. If you're using an Omeka installation through Reclaim hosting, make sure you [follow these steps to activate Neatline on a Reclaim server](https://docs.google.com/document/d/1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w/edit).
 
-If not, you can log into [projects.leadr.msu.edu/msudhneatline/](http://projects.leadr.msu.edu/msudhneatline/)
+If you haven't set up an Omeka isntallation through Reclaim, you can log into [projects.leadr.msu.edu/msudhneatline/](http://projects.leadr.msu.edu/msudhneatline/)
 <!-- For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline/admin). -->
 
 ### Adding Content to Omeka
@@ -170,6 +171,19 @@ To place a record on the timeline, go to the 'Style' tab for the record and add 
 
 #### Customize the Waypoints
 You can edit the order that waypoints appear on your Neatline Exhibit. At the Neatline dashboard, click on the 'Plugins' tab and then select Waypoints. You can drag your Waypoints up and down as desired.
+
+### Adding Records that aren't Omeka items
+*Thanks to [Kristen Mapes for writing these instructions](https://docs.google.com/document/d/1zdeA-ETIPQW5eUjQktIQ7sstKe1L31Px0AY282Hq3S0/edit)*
+
+1. Create a new record and give it a title
+2. Click 'Edit HTML' next to the *Body* input
+3. In the editor window, click on the image button at the top (it's a small picture icon in the middle of the bar)
+4. Here you can enter the URL for the photo you would like to embed here — that means it needs to be online already. It can be the image URL to a file you've uploaded to Omeka, or one hosted elsewhere. This needs to be the URL directly to an image — you can find this by right-clicking on an image and clicking 'copy image url'
+5. Make sure you add alternative text, a short description of the image that aids visually impaired people.
+6. Adjust the size of the photo (if needed) by entering pixel sizes on the left. If you do this, make sure you know the dimensions of your image and keep them in the same ratio.
+7. Click 'ok'
+7. Add whatever text you'd like displayed alongside the image in the body.
+8. When you're done, click on the minimize button (this is on the right side of the bar at the top, with arrows pointing inwards)
 
 ## Sources for this Guide
 - [Tobias Hrynick, The Haskins Society](http://www.haskinssociety.org/omeka-neatline-1)
