@@ -175,7 +175,7 @@ To place a record on the timeline, go to the 'Style' tab for the record and add 
 You can edit the order that waypoints appear on your Neatline Exhibit. At the Neatline dashboard, click on the 'Plugins' tab and then select Waypoints. You can drag your Waypoints up and down as desired.
 
 ### Adding Records that aren't Omeka items
-*Thanks to [Kristen Mapes for writing these instructions](https://docs.google.com/document/d/1zdeA-ETIPQW5eUjQktIQ7sstKe1L31Px0AY282Hq3S0/edit)*
+*See [Kristen Mapes's illustrated guide to adding images](https://docs.google.com/document/d/1zdeA-ETIPQW5eUjQktIQ7sstKe1L31Px0AY282Hq3S0/edit)*
 
 1. Create a new record and give it a title
 2. Click 'Edit HTML' next to the *Body* input
