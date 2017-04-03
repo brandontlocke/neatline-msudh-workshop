@@ -4,11 +4,11 @@
 *Materials used in the prior Omeka workshop and this Neatline workshop are available at [go.cal.msu.edu/2017omekaworkshop](http://go.cal.msu.edu/2017omekaworkshop)*
 
 ## Preparing Neatline
-If you registered for this workshop, you should have had one set up for you. If you're using an Omeka installation through Reclaim hosting, make sure you [follow these steps to activate Neatline on a Reclaim server](https://docs.google.com/document/d/1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w/edit).
-
-If you haven't set up an Omeka isntallation through Reclaim, you can log into [projects.leadr.msu.edu/msudhneatline/](http://projects.leadr.msu.edu/msudhneatline/)
+If you registered for this workshop, you should have had one set up for you. *If you haven't set up an Omeka installation through Reclaim, you can log into [projects.leadr.msu.edu/msudhneatline/](http://projects.leadr.msu.edu/msudhneatline/)*
 <!-- For this workshop, I've set up an Omeka/Neatline installation for everyone to use: [projects.leadr.msu.edu/msudh-neatline](http://projects.leadr.msu.edu/msudh-neatline/admin). -->
+ If you're using an Omeka installation you've already set up through Reclaim hosting:
 
+ 1. [Follow these steps to activate Neatline on a Reclaim server](https://docs.google.com/document/d/1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w/edit).
 1. Download the Neatline plugin. **Do not unzip this file** [Click to download Neatline and associated plugins](https://drive.google.com/file/d/0B0-bI3TzTQ7eeVdtV1JPOWhVelU/view?usp=sharing)
 2. Follow these [instructions to upload Neatline and other plugins to your Omeka site hosted on Reclaim](https://community.reclaimhosting.com/t/uploading-plugins-to-omeka/195)
 2. Follow these [instructions to edit the config file](https://drive.google.com/open?id=1j9GrPE2XXPC7vUX3BRr4yMjTb1g1vYXmldB5p4fUX5w)
